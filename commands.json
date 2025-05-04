@@ -1,0 +1,15 @@
+[
+  { "pattern": "help",        "desc": "show all commands" },
+  { "pattern": "rain",        "desc": "toggle Matrix rain" },
+  { "pattern": "quote",       "desc": "show random quote" },
+  { "pattern": "hack",        "desc": "simulate hack" },
+  { "pattern": "talk neo",    "desc": "talk with Neo" },
+  { "pattern": "talk trinity","desc": "talk with Trinity" },
+  { "pattern": "talk morpheus","desc": "talk with Morpheus" },
+  { "pattern": "talk smith",  "desc": "talk with Agent Smith" },
+  { "pattern": "talk oracle", "desc": "talk with The Oracle" },
+  { "pattern": "clear",       "desc": "clear screen" },
+  { "pattern": "date",        "desc": "show current date/time" },
+  { "pattern": "whoami",      "desc": "show current user" },
+  { "pattern": "echo ...",    "desc": "echo text" }
+]

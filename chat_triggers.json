@@ -1,0 +1,7 @@
+[
+  { "pattern": "talk neo",     "intent": "talk neo" },
+  { "pattern": "talk trinity", "intent": "talk trinity" },
+  { "pattern": "talk morpheus","intent": "talk morpheus" },
+  { "pattern": "talk smith",   "intent": "talk smith" },
+  { "pattern": "talk oracle",  "intent": "talk oracle" }
+]

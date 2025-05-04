@@ -1,0 +1,76 @@
+/* Layout & Reset */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: black;
+  color: #00ff00;
+  font-family: monospace;
+}
+
+/* Wrapper für Terminal + Prompt */
+.outer-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding-bottom: 2.5rem; /* Abstand für die Controls */
+}
+
+/* Terminal-Ausgabebereich */
+.terminal-container {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+  white-space: pre-wrap;
+}
+
+/* Prompt-Bereich fixiert am unteren Rand des Wrappers */
+.ms-prompt {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  border-top: 1px solid #00ff00;
+}
+
+/* Prompt-Symbol */
+.ms-prompt-sign {
+  margin-right: 0.5rem;
+}
+
+/* Eingabefeld-Styling */
+.ms-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #00ff00;
+  font-family: monospace;
+  font-size: 1rem;
+}
+
+/* Hidden VM canvas, bis benötigt */
+#vmCanvas {
+  display: none;
+}
+
+/* Controls fixieren */
+.controls {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background: rgba(0,0,0,0.8);
+  display: flex;
+  gap: 0.5rem;
+}
+.controls button {
+  background: #111;
+  color: #0f0;
+  border: 1px solid #0f0;
+  padding: 0.3rem 0.6rem;
+  cursor: pointer;
+}
+.controls button:hover {
+  background: #222;
+}
