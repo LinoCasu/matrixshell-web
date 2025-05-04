@@ -1,0 +1,49 @@
+html, body {
+  margin:0; padding:0;
+  width:100%; height:100%;
+  background:#000;
+  overflow:hidden;
+  font-family:monospace;
+}
+
+canvas#vmCanvas {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  z-index: 0;       /* jetzt oberhalb des Body-Hintergrunds */
+  display: none;    /* wird später per JS auf „block“ geschaltet */
+}
+
+/* stelle sicher, dass die Shell immer drüber liegt */
+#shell {
+  position: relative;
+  z-index: 1;
+  /* ... alles andere bleibt wie gehabt ... */
+}
+
+#terminal {
+  position:relative;
+  z-index:1;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  padding:1rem;
+  background:rgba(0,0,0,0.6);
+}
+
+#shell {
+  flex:1;
+  overflow-y:auto;
+  color:#0F0;
+  line-height:1.2;
+}
+
+#cmd {
+  border:none;
+  outline:none;
+  width:100%;
+  padding:0.5rem;
+  background:transparent;
+  color:#0F0;
+  font-size:1rem;
+}
