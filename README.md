@@ -1,5 +1,12 @@
 # MatrixShell Web
 
+# MatrixShell Web
+
+> Schau dir die Live‑Demo an:
+[https://LinoCasu.github.io/matrixshell-web/](https://LinoCasu.github.io/matrixshell-web/)
+
+![Screenshot](images/screenshot.png)
+
 A web-based Matrix-themed command shell with interactive dialogs. Run commands to see Matrix rain, quotes, hack simulations, and multi-character conversations.
 
 ## Features
