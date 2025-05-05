@@ -1,7 +1,5 @@
 # MatrixShell Web
 
-# MatrixShell Web
-
 > Schau dir die Live‑Demo an:
 [https://LinoCasu.github.io/matrixshell-web/](https://LinoCasu.github.io/matrixshell-web/)
 
